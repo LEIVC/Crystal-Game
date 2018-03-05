@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+	background-image:url("https://nerdist.com/wp-content/uploads/2017/05/maxresdefault-970x545.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: black;
+	font-size: 25px;
+	color: rgb(10, 218, 233);
+}
+
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+h1, h2, h3 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+}
+h1 {
+    background: #ec4b5f;
+    float: inherit;
+    float: left;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+h2,
+h3 {
+	font-size: 22px;
+}
+
+
+.numberToGuess, .winsAndLosses{
+	float: left;
+	width: 25%;
+	height: 60px;
+}
+.finalScore{
+	width: 25%;
+	height: 60px;
+}
+
+.crystals{
+	clear: both;
+}
+.crystalPic{
+	height: 60px;
+	margin: 10px;
+}
+
+#blue{
+	color: #3092c7;
+}
+#green{
+	color: #00aa59;
+}
+#red{
+	color: #ec4b5f;
+}
+#yellow{
+	color: #ffc225;
+}
